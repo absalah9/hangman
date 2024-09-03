@@ -1,0 +1,200 @@
+.guesses {
+  border: 0.2rem solid;
+  border-radius: 2rem;
+  height: 20rem;
+  width: 35rem;
+  padding: 0 2rem;
+  margin: 0 4.5rem;
+}
+
+.guesses .remaining-guesses p {
+  font-weight: 900;
+  font-size: 25px;
+  padding: 0.02rem 1rem;
+}
+
+.guesses .remaining-guesses .num-guess {
+  border: 2px solid #000;
+  border-radius: 0.5rem;
+  background-color: #700b0b;
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  left: 15rem;
+  bottom: 4rem;
+  color: #ccc;
+  font-size: 50px;
+  padding: 0 0 0 1rem;
+  align-items: center;
+}
+
+.word-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.letter-placeholder {
+  width: 1.5rem;
+  display: flex;
+  visibility: hidden;
+}
+
+.underscore-placeholder {
+  /* border: 1px solid #000; */
+  background-color: #000;
+  height: 0.2rem;
+  width: 1.25rem;
+}
+
+@media (max-width: 1210px) {
+  .guesses {
+    border: 0.2rem solid;
+    border-radius: 2rem;
+    height: 18rem;
+    width: 25rem;
+    position: relative;
+    right: 7rem;
+    bottom: 1.25rem;
+    margin: 0 3rem;
+    padding: 0 2rem;
+  }
+
+  .guesses .remaining-guesses p {
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0.2rem 1rem;
+  }
+
+  .guesses .remaining-guesses .num-guess {
+    border: 4px solid #000;
+    border-radius: 0.5rem;
+    background-color: #700b0b;
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    left: 15rem;
+    bottom: 4rem;
+  }
+
+  .letter-placeholder {
+    height: 0.05rem;
+    width: 0.8rem;
+
+    margin-right: 0.5rem;
+    position: relative;
+    top: -1.5rem;
+  }
+
+  .letter-placeholder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .guesses {
+    border: 0.2rem solid;
+    border-radius: 2rem;
+    height: 13rem;
+    width: 20rem;
+    position: relative;
+    right: 3.5rem;
+    bottom: -1.25rem;
+    margin: 0 0 0 5rem;
+    padding: 0 2rem;
+  }
+
+  .guesses .remaining-guesses p {
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0.2rem 0.1rem;
+  }
+
+  .guesses .remaining-guesses .num-guess {
+    border: 4px solid #000;
+    border-radius: 0.5rem;
+    background-color: #700b0b;
+    height: 3rem;
+    width: 1.7rem;
+    position: relative;
+    left: 11rem;
+    bottom: 3.2rem;
+  }
+
+  .letter-placeholder {
+    height: 0.05rem;
+    width: 0.5rem;
+
+    margin-right: 0.5rem;
+  }
+
+  .letter-placeholder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 630px) {
+  .guesses {
+    border: 0.2rem solid;
+    border-radius: 2rem;
+    height: 13rem;
+    width: 13rem;
+    position: relative;
+    right: 5.5rem;
+    bottom: -7.25rem;
+    margin: 0 0 0 5rem;
+    padding: 0 2rem;
+  }
+
+  .guesses .remaining-guesses p {
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0.2rem 0.1rem;
+  }
+
+  .guesses .remaining-guesses .num-guess {
+    border: 4px solid #000;
+    border-radius: 0.5rem;
+    background-color: #700b0b;
+    height: 3.5rem;
+    width: 2rem;
+    position: relative;
+    left: 11rem;
+    bottom: 4rem;
+  }
+
+  .letter-placeholder {
+    height: 0.05rem;
+    width: 1.5rem;
+
+    margin-right: 0.5rem;
+    visibility: "hidden";
+  }
+
+  .letter-placeholder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  .space-placeholder {
+    margin: 0 1rem;
+  }
+}

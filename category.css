@@ -1,0 +1,330 @@
+body{
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #202124;
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+    
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 10rem 0;
+    position: relative;
+    right: 3rem;
+}
+
+.sports{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+.sports button{
+    background-color: #ff0000;
+    border: none;
+    font-size: 2.5rem;
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+
+}
+
+.movies button{
+    background-color: #ff7300;
+    border: none;
+    font-size: 2.5rem;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+}
+
+.games button{
+    background-color: #00ffb3;
+    border: none;
+    font-size: 2.5rem;
+}
+
+.countries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+
+}
+
+.countries button{
+    background-color: #008cff;
+    border: none;
+    font-size: 2.5rem;
+}
+
+.sports .movies .games .countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories button{
+    height: 15rem;
+    width: 35rem;
+    border-radius: 25px;
+    transition: all 1s;
+}
+
+.categories button:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 5px  #bfc0c0;
+}
+
+@media (max-width: 1200px) {
+    body{
+        height: 100%;
+        width: 100vw;
+        overflow: hidden;
+        background-color: #202124;
+    }
+    
+    h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        position: relative;
+        
+    }
+    
+    .categories{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem 0 10rem 0;
+        position: relative;
+        right: 3rem;
+    }
+    
+    .sports{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 2rem;
+    }
+    
+    .sports button{
+        background-color: #ff0000;
+        border: none;
+        font-size: 2.5rem;
+    }
+    
+    .movies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 2rem;
+    
+    }
+    
+    .movies button{
+        background-color: #ff7300;
+        border: none;
+        font-size: 2.5rem;
+    }
+    
+    .games{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 5rem;
+        bottom: 2rem;
+    }
+    
+    .games button{
+        background-color: #00ffb3;
+        border: none;
+        font-size: 2.5rem;
+    }
+    
+    .countries{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 5rem;
+        top: 2rem;
+    
+    }
+    
+    .countries button{
+        background-color: #008cff;
+        border: none;
+        font-size: 2.5rem;
+    }
+    
+    .sports .movies .games .countries {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .categories button{
+        height: 15rem;
+        width: 25rem;
+        border-radius: 25px;
+        transition: all 1s;
+    }
+    
+    .categories button:hover{
+        transform: scale(1.2);
+        box-shadow: 0 0 10px 5px  #bfc0c0;
+    }
+    
+}
+
+@media (max-width:1000px) {
+    body{
+        height: 100%;
+        width: 100vw;
+        overflow: hidden;
+        background-color: #202124;
+    }
+    
+    h1, h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        position: relative;
+        
+    }
+    
+    .categories{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8rem 0 10rem 0;
+        position: relative;
+        right: 3rem;
+        flex-direction: column;
+    }
+
+    .first-col-categories{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-col-categories{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sports{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 0rem;
+        left: 13rem;
+    }
+    
+    .sports button{
+        background-color: #ff0000;
+        border: none;
+        font-size: 1.5rem;
+    }
+    
+    .movies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 6.5rem;
+        right: 7rem;
+    
+    }
+    
+    .movies button{
+        background-color: #ff7300;
+        border: none;
+        font-size: 1.5rem;
+    }
+    
+    .games{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 8rem;
+        left: 13.15rem;
+
+    }
+    
+    .games button{
+        background-color: #00ffb3;
+        border: none;
+        font-size: 1.5rem;
+    }
+    
+    .countries{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 15rem;
+        left: -7rem;
+    }
+    
+    .countries button{
+        background-color: #008cff;
+        border: none;
+        font-size: 1.5rem;
+    }
+    
+    .sports .movies .games .countries {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .categories button{
+        height: 5rem;
+        width: 20rem;
+        border-radius: 25px;
+        transition: all 1s;
+    }
+    
+    .categories button:hover{
+        transform: scale(1.2);
+        box-shadow: 0 0 10px 5px  #bfc0c0;
+    }
+    
+    
+}

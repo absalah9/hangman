@@ -1,0 +1,397 @@
+body{
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.hangman-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: steelblue;
+    position: relative;
+    top: 1rem;
+    /* right: 7rem; */
+}
+
+.hangman-stand-game-info{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    position: relative;
+    bottom: 7rem;
+}
+
+.hangman-stand-main-container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 3.5rem 5rem 0.5rem 24rem;
+}
+
+.hangman-main-stand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 4rem;
+    top: 1rem;
+}
+
+.hangman-person-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 16rem;
+    bottom: 9rem;
+}
+
+.game-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 28rem;
+    bottom: 8rem;
+}
+
+.category-btn{
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 25rem;
+    top: 3rem;
+    box-shadow: gray 2px 2px;
+    border-radius: .5rem;
+    height: 3rem;
+    width: 5rem;
+    background-color: #c47d21;
+    color: #ccc;
+    font-weight: bold;
+
+}
+
+.reset-game-btn{
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30rem;
+    bottom: 5rem;
+    box-shadow: gray 2px 2px;
+    border-radius: .5rem;
+    height: 3rem;
+    width: 5rem;
+    background-color: #4155c7;
+    color: #ccc;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 1210px) {
+    .hangman-app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 15rem 20rem 25rem;
+    }
+
+    h1{
+        color: steelblue;
+        position: relative;
+        top: 1rem;
+        font-size: 25px;
+    }
+
+    .hangman-stand-game-info{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+    }    
+
+    .hangman-stand-main-container{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin: 0 15rem 0 28rem;
+    }
+
+    .hangman-main-stand{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 4rem;
+        top: 1rem;
+    }
+    
+    .hangman-person-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 16rem;
+        bottom: 9rem;
+    }
+    
+    .game-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 28rem;
+        bottom: 8rem;
+    }
+
+    .btn-categories button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 23rem;
+        top: 1rem;
+        box-shadow: gray 2px 2px;
+        border-radius: .5rem;
+        height: 3rem;
+        width: 5rem;
+        background-color: #c47d21;
+    }
+    
+    .btn-categories button a{
+        color: #ccc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .reset-game button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 15rem;
+        top: -6rem;
+        box-shadow: gray 2px 2px;
+        border-radius: .5rem;
+        height: 3rem;
+        width: 5rem;
+        background-color: #4155c7;
+    }
+    
+    .reset-game button a{
+        color: #ccc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 800px) {
+    .hangman-app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 15rem 20rem 25rem;
+    }
+
+    .hangman-stand-game-info{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        position: relative;
+    }    
+
+    .hangman-stand-main-container{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin: 0 2rem 0 28rem;
+    }
+
+    .hangman-main-stand{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 9rem;
+        top: 6rem;
+    }
+    
+    .hangman-person-container{
+        position: relative;
+        top: -4rem;
+        left: -20rem;
+    }
+
+    .hangman-person-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 16rem;
+        bottom: 9rem;
+    }
+    
+    .game-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 28rem;
+        bottom: 8rem;
+    }
+
+    .btn-categories button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 18rem;
+        top: 2rem;
+        box-shadow: gray 2px 2px;
+        border-radius: .5rem;
+        height: 3rem;
+        width: 5rem;
+        background-color: #c47d21;
+    }
+    
+    .btn-categories button a{
+        color: #ccc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .reset-game button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 7rem;
+        bottom: .75rem;
+        box-shadow: gray 2px 2px;
+        border-radius: .5rem;
+        height: 3rem;
+        width: 5rem;
+        background-color: #4155c7;
+    }
+    
+    .reset-game button a{
+        color: #ccc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:630px) {
+    .hangman-app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 15rem 10rem 25rem;
+    }
+
+    .hangman-stand-game-info{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction: column;
+        /* background-color:aqua; */
+        /* border: 2px solid; */
+        height: 48rem;
+        width: 25rem;
+        position: relative;
+        left: -11rem;
+    }    
+
+    .hangman-stand-main-container{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        /* flex-direction: column; */
+        height: 20rem;
+        width: 20rem;
+        /* border: 2px solid; */
+        position: relative;
+        right: 12rem;
+        top: 14rem;
+    }
+
+    .hangman-main-stand{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        position: relative;
+        right: -.5rem;
+        top: 9.5rem;
+    }
+
+    .hangman-person-container{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        position: relative;
+        top: 2rem;
+        right: 10rem;
+    }
+    
+    .game-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: -3rem;
+        bottom: 46rem;
+        height: 5rem;
+        width: 25rem;
+        /* margin: 0 0 10rem 0; */
+    }
+
+    .btn-categories button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 16rem;
+        top: 2rem;
+        box-shadow: gray 2px 2px;
+        border-radius: .5rem;
+        height: 3rem;
+        width: 5rem;
+        background-color: #c47d21;
+    }
+    
+    .btn-categories button a{
+        color: #ccc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .reset-game button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -6.5rem;
+        bottom: 1rem;
+        box-shadow: gray 2px 2px;
+        border-radius: .5rem;
+        height: 3rem;
+        width: 5rem;
+        background-color: #4155c7;
+    }
+    
+    .reset-game button a{
+        color: #ccc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}

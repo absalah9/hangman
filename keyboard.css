@@ -1,0 +1,230 @@
+.qwerty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 1000px;
+    position: relative;
+    bottom: 25rem;
+    left: 2.5rem;
+    border: 10px solid;
+    border-radius: 2rem;
+    background-color: green;
+    margin: 0 8rem;
+}
+
+.qwerty button{
+    border-radius: 10%;
+    margin: .2rem .1rem;
+}
+
+.qwerty .top-row-keyboard button{
+    background-color: yellow;
+    height: 4.5rem;
+    width: 4.2rem;
+}
+
+.qwerty .top-row-keyboard button:disabled{
+    background-color: transparent;
+    height: 4.5rem;
+    width: 4.2rem;
+}
+
+.qwerty .mid-row-keyboard button{
+    background-color: red;
+    height: 4.5rem;
+    width: 4.2rem;
+}
+
+.qwerty .mid-row-keyboard button:disabled{
+    background-color: transparent;
+    height: 4.5rem;
+    width: 4.2rem;
+}
+
+.qwerty .bottom-row-keyboard button{
+    background-color: #0099FF;
+    height: 4.5rem;
+    width: 4.2rem;
+}
+
+.qwerty .bottom-row-keyboard button:disabled{
+    background-color: transparent;
+    height: 4.5rem;
+    width: 4.2rem;
+}
+
+@media (max-width: 1210px) {
+    .qwerty {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        width: 750px;
+        position: relative;
+        top: -20rem;
+        left:2rem;
+        border: 10px solid;
+        border-radius: 2rem;
+        background-color: green;
+        margin: 0 10rem 0 0;
+    }
+    
+    .qwerty button{
+        border-radius: 10%;
+    }
+    
+    .qwerty .top-row-keyboard button{
+        background-color: yellow;
+        height: 3.05rem;
+        width: 3rem;
+    }
+
+    .qwerty .top-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 3.05rem;
+        width: 3rem;
+    }
+    
+    .qwerty .mid-row-keyboard button{
+        background-color: red;
+        height: 3.05rem;
+        width: 3rem;
+    }
+    
+    .qwerty .mid-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 3.05rem;
+        width: 3rem;
+    }
+
+    .qwerty .bottom-row-keyboard button{
+        background-color: rgb(0, 162, 255);
+        height: 3.05rem;
+        width: 3rem;
+    }
+
+    .qwerty .bottom-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 3.05rem;
+        width: 3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .qwerty {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 550px;
+        position: relative;
+        bottom: 20rem;
+        left: .5rem;
+        border: 10px solid;
+        border-radius: 2rem;
+        background-color: green;
+        margin: 0 15rem 0 5rem;
+    }
+    
+    .qwerty button{
+        border-radius: 10%;
+    }
+    
+    .qwerty .top-row-keyboard button{
+        background-color: yellow;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .qwerty .top-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    
+    .qwerty .mid-row-keyboard button{
+        background-color: red;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    
+    .qwerty .mid-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .qwerty .bottom-row-keyboard button{
+        background-color: rgb(0, 162, 255);
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .qwerty .bottom-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+
+@media (max-width:630px) {
+    .qwerty {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 350px;
+        position: relative;
+        bottom: 16rem;
+        left: -5.5rem;
+        border: 10px solid;
+        border-radius: 2rem;
+        background-color: green;
+        margin: 0 16rem 0 5rem;
+    }
+    
+    .qwerty button{
+        border-radius: 10rem;
+    }
+    
+    .qwerty .top-row-keyboard button{
+        background-color: yellow;
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+
+    .qwerty .top-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+    
+    .qwerty .mid-row-keyboard button{
+        background-color: red;
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+    
+    .qwerty .mid-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+
+    .qwerty .bottom-row-keyboard button{
+        background-color: rgb(0, 162, 255);
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+
+    .qwerty .bottom-row-keyboard button:disabled{
+        background-color: transparent;
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+}

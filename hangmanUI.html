@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hangman-stand.css" />
+    <link rel="stylesheet" href="hangman-person.css" />
+    <link rel="stylesheet" href="game-info.css" />
+    <link rel="stylesheet" href="keyboard.css" />
+  </head>
+  <body>
+    <div class="hangman-app">
+      <div class="btn-categories">
+        <a href="/category.html">
+          <button class="category-btn">Categories</button>
+        </a>
+      </div>
+      <h1>STATUS:</h1>
+      <div class="reset-game">
+        <a href=""><button class="reset-game-btn">Reset Game</button></a>
+      </div>
+      <div class="hangman-stand-game-info">
+        <div class="hangman-stand-main-container">
+          <div class="hangman-main-stand">
+            <div class="hangman-stand-arm"></div>
+            <div class="hangman-stand-rope"></div>
+            <div class="hangman-noose"></div>
+            <div class="hangman-stand"></div>
+            <div class="hangman-stand-base"></div>
+          </div>
+          <div class="hangman-person-container">
+            <div class="hangman-head">
+              <div class="face">
+                <div class="eyes">
+                  <div class="left-eye">X</div>
+                  <div class="right-eye">X</div>
+                </div>
+                <div class="mouth"></div>
+                <div class="hangman-neck"></div>
+              </div>
+            </div>
+
+            <div class="hangman-body"></div>
+            <div class="hangman-arms">
+              <div class="hangman-left-arm"></div>
+              <div class="hangman-right-arm"></div>
+            </div>
+            <div class="hangman-legs">
+              <div class="hangman-left-leg"></div>
+              <div class="hangman-right-leg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="game-info">
+          <div class="guesses">
+            <div class="remaining-guesses">
+              <p>Remaining Guesses:</p>
+              <div class="num-guess"></div>
+            </div>
+            <div class="word-container"></div>
+            <div class="underscore-placeholder-container"></div>
+          </div>
+        </div>
+      </div>
+      <div class="qwerty">
+        <div class="top-row-keyboard">
+          <button value="Q">Q</button>
+          <button value="W">W</button>
+          <button value="E">E</button>
+          <button value="R">R</button>
+          <button value="T">T</button>
+          <button value="Y">Y</button>
+          <button value="U">U</button>
+          <button value="I">I</button>
+          <button value="O">O</button>
+          <button value="P">P</button>
+        </div>
+        <div class="mid-row-keyboard">
+          <button value="A">A</button>
+          <button value="S">S</button>
+          <button value="D">D</button>
+          <button value="F">F</button>
+          <button value="G">G</button>
+          <button value="H">H</button>
+          <button value="J">J</button>
+          <button value="K">K</button>
+          <button value="L">L</button>
+          <!-- <button value="1">1</button> -->
+        </div>
+        <div class="bottom-row-keyboard">
+          <button value="Z">Z</button>
+          <button value="X">X</button>
+          <button value="C">C</button>
+          <button value="V">V</button>
+          <button value="B">B</button>
+          <button value="N">N</button>
+          <button value="M">M</button>
+          <!-- <button value="2">2</button> -->
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+    <!-- <script src="hangman.js"></script> -->
+  </body>
+</html>
